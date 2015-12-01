@@ -1,0 +1,5 @@
+<p id="notice"><%= notice %></p>
+<%= render @kitten %>
+<%= link_to 'Edit', edit_kitten_path(@kitten) %> |
+<%= link_to 'Back', root_path %> |
+<%= link_to 'Destroy', @kitten, method: :delete, data: { confirm: 'Are you sure?' } %>
