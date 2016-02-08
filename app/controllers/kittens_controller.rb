@@ -17,7 +17,7 @@ class KittensController < ApplicationController
     respond_to do |format|
       format.html
       format.json {render json: @kitten}
-    end
+    end 
   end
 
   # GET /kittens/new
